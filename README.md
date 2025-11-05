@@ -1,11 +1,11 @@
-# 🌊 Oceanis Cruises – Landing Page Responsiva com Bootstrap
+# Oceanis Cruises – Landing Page Responsiva com Bootstrap
 
 Este projeto consiste em uma **landing page moderna e responsiva** desenvolvida com **Bootstrap 5**, inspirada em uma **agência marítima de cruzeiros de luxo** chamada **Oceanis Cruises**.  
 O principal objetivo é **explorar, praticar e compreender os recursos do framework Bootstrap** aplicados a um site real e funcional.
 
 ---
 
-## 🚢 Objetivo do Projeto
+## Objetivo do Projeto
 
 A proposta é criar uma experiência de navegação fluida, elegante e responsiva para o usuário, destacando:
 
@@ -16,14 +16,14 @@ A proposta é criar uma experiência de navegação fluida, elegante e responsiv
 
 ---
 
-## 🧱 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** – Estruturação semântica da página;  
 - **CSS3** – Estilizações complementares personalizadas;  
 - **Bootstrap 5.3** – Framework principal para layout, responsividade e componentes interativos;  
 - **JavaScript (Bootstrap Bundle)** – Para interatividade de componentes como *carousel* e *accordion*.
 
-## 💡 Possíveis Melhorias Futuras
+## Possíveis Melhorias Futuras
 
 - Adicionar **animações suaves** com CSS ou AOS (Animate On Scroll);
 - Integrar um **formulário funcional** com backend (PHP, Node.js ou API);
