@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.img-header, .img-referece-section {
+    height: 50vh;              /* Define a altura da imagem (ajustável) */
+    object-fit: cover;         /* Mantém proporção e cobre toda a área */
+    filter: brightness(70%);   /* Escurece um pouco o fundo pra destacar o texto */
+    z-index: 1;
+}
+
+.header-text-title {
+    font-size: 4rem; /* Define o tamanho do titulo */
+}
+
+.corousel-main {
+    border-radius: 100px; /* Bordas no caroussel */
+}
+
+.carousel-indicators.bg-buttons-carousel button[data-bs-target]{
+    background-color: white; /* buttons branco no carousel */
+}
+
+#carousel-main .carousel-control-prev-icon,
+#carousel-main .carousel-control-next-icon {
+  filter: invert(1) brightness(200%); /* Ícones brancos para controles do carrossel */
+}
+
+/* Estilo para legenda do carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 10px;
+}
+
+/* Estilo do card depoimentos */
+.card {
+    width: 20rem;
+    margin-top: 2.75rem;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para imagem de depoimentos */
+.img-card-depoimento {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 999px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.bg-footer {
+    background-color: #f2f2f2;
+}

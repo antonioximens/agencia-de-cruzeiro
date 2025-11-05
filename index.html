@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Oceanis Cruises 🌊✨</title>
+</head>
+<body>
+    <header>
+        <!-- Parte 1 criando o menu -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container justify-content-between">
+                <a href="#" class="navbar-brand text-primary fw-bold">OCEANIS</a>
+                <!-- Botao hamburguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#activeToggler" aria-controls="activeToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links de navegação -->
+                <div class="collapse navbar-collapse" id="activeToggler">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active" aria-current="page" href="#">Inicío</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active" aria-current="page" href="#">O que oferecemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active" aria-current="page" href="#">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active" aria-current="page" href="#">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link active" aria-current="page" href="#">Exclusivos</a>
+                        </li>
+                    </ul>
+                    <!-- Botao de reserva -->
+                    <button class="btn btn-primary ms-2">Reserve agora!</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Parte 2 do hedaer com imagem -->
+        <div class=" container-fluid p-0 position-relative text-white">
+            <!-- Imagem de fundo -->
+            <img src="./images/bg-mar-header.webp" alt="alto-mar" class="img-fluid w-100 img-header">
+
+            <!-- Texto sobre a imagem -->
+            <div class="container position-absolute top-50 start-50 translate-middle">
+                <p class="fw-light header-text-title">Descubra o Paraíso em Alto-Mar!</p>
+                <p class="fs-3">Embarque em uma Experiência Inesquecível</p>
+                <p>
+                    Navegue por destinos paradisíacos, explore paisagens deslumbrantes e aproveite o luxo e conforto
+                    de um cruzeiro projetado para transformar suas férias em momentos inesquecíveis.
+                </p>
+                <!-- Campos do formulário -->
+                <form class="row w-100">
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <div class="input-group gap-3">
+                        <input 
+                            type="email" 
+                            class="form-control border-0 rounded-2" 
+                            placeholder="Digite seu email"
+                            aria-label="Digite seu email">
+                        <button 
+                            class="btn btn-primary rounded-2" 
+                            type="submit">
+                            Quero Conhecer Mais!
+                        </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Criando o carousel -->
+        <section class="container">
+            <!-- Centralizando o carousel -->
+            <div class=" mx-auto my-5">
+                <div>
+                    <p class="fs-2 pt-3">Viva o Melhor da Vida a Bordo</p>
+                    <p class="fs-6">Conforto, diversão e experiências inesquecíveis para você!</p>
+                </div>
+                <div id="carousel-main" class="carousel corousel-main carousel-dark slide mt-5 rounded-4 overflow-hidden">
+                    <div class="carousel-indicators bg-buttons-carousel">
+                        <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/carrossel-img-01.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Acomodações luxuosas com vista para o mar</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/carrossel-img-02.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Gastronomia internacional assinada por chefs renomados</h5>
+                            <p>Desfrute de uma experiência gastronômica única, com pratos de diferentes culinárias do mundo preparados com ingredientes frescos e selecionados.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carrossel-img-03.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Piscinas, spas e academias para relaxamento e bem-estar</h5>
+                            <p>Relaxe em piscinas luxuosas, aproveite tratamentos revigorantes no spa e mantenha-se ativo em academias bem equipadas.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./images/carrossel-img-04.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Excursões exclusivas em destinos incríveis</h5>
+                            <p>Descubra os segredos de cada parada com passeios guiados, experiências culturais e aventuras ao ar livre.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-main" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-main" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>    
+        </section>
+        <!-- Seção de depoimentos -->
+        <section class="container mb-5">
+            <div>
+                <p class="fs-2">Depoimentos de quem já embarcou</p>
+                <p class="fs-6">Veja o que nossos viajantes dizem sobre essa experiência incrível!</p>
+            </div>
+            <div class="d-flex justify-content-around flex-wrap">
+                <!-- Cards de depoimentos -->
+                <div class="card">
+                    <img class="img-card-depoimento" src="./images/img-card-depoimento-01.jpg" alt="Depoimento">
+                    <div class="card-body">
+                        <p class="card-text fs-6"><strong>Maria S. -</strong> "Uma viagem inesquecível! O atendimento foi impecável e os destinos, simplesmente deslumbrantes. Mal posso esperar para embarcar novamente!"</p>
+                    </div>
+                </div>
+                <!-- Cards de depoimentos -->
+                <div class="card">
+                    <img class="img-card-depoimento" src="./images/img-card-depoimento-02.jpg" alt="Depoimento">
+                    <div class="card-body">
+                        <p class="card-text fs-6"><strong>Carlos M. -</strong> "O cruzeiro superou todas as minhas expectativas. A gastronomia era fantástica e as atividades a bordo garantiram diversão para toda a família."</p>
+                    </div>
+                </div>
+                <!-- Cards de depoimentos -->
+                <div class="card">
+                    <img class="img-card-depoimento" src="./images/img-card-depoimento-03.jpg" alt="Depoimento">
+                    <div class="card-body">
+                        <p class="card-text fs-6"><strong>Ana P. -</strong> "Foi a melhor experiência da minha vida! Desde a cabine confortável até os passeios incríveis, tudo foi perfeito. Recomendo a todos!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Imagem da section -->
+        <section class="container-fluid px-0 py-5 position-relative">
+            <img class="img-referece-section img-fluid w-100" src="./images/bg-reference-midia.webp" alt="">
+            <div class=" text-center position-absolute top-50 start-50 translate-middle text-white">
+                <p class="fs-1 fw-light">Destinos dos Sonhos</p>
+                <p>Explore cidades históricas, praias paradisíacas e culturas fascinantes. Nossos roteiros incluem os destinos mais desejados do mundo, garantindo uma experiência completa em cada parada.</p>
+            </div>
+        </section>
+        <!-- Beneficios da section -->
+        <section class="container my-5">
+            <div>
+                <p class="fs-4">Reserve Agora e Ganhe Benefícios Exclusivos</p>
+                <p class="fw-light">Garanta sua cabine hoje mesmo e aproveite:</p>
+            </div>
+            <div class="accordion w-50" id="accordionSection">
+
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            📆 Descontos especiais para reservas antecipadas
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionSection">
+                        <div class="accordion-body">
+                            <p class="fw-light">
+                                Reserve sua cabine com antecedência e aproveite descontos exclusivos para garantir o melhor preço da sua viagem.
+                                Além disso, tenha mais opções de escolha entre as cabines e roteiros disponíveis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            🍹 Pacotes all-inclusive com bebidas e passeios inclusos
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionSection">
+                        <div class="accordion-body">
+                            <p class="fw-light">
+                                Desfrute de uma experiência completa sem preocupações! Com nosso pacote all-inclusive,
+                                você terá acesso ilimitado a uma variedade de bebidas e poderá participar de excursões incríveis em cada destino,
+                                sem custos adicionais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            💸 Parcelamento facilitado e condições exclusivas
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionSection">
+                        <div class="accordion-body">
+                            <p class="fw-light">
+                                Viajar nunca foi tão fácil! Parcelamos sua viagem em até 12x sem juros e oferecemos condições especiais para grupos e famílias.
+                                Aproveite essa oportunidade e embarque na aventura dos seus sonhos sem pesar no bolso!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid bg-footer text-center pt-4 p-0">
+        <div class="text-center">
+            <p class="fs-4 mb-1">Não perca essa oportunidade!</p>
+            <p class="fw-light mb-4">Reserve agora e embarque na viagem dos seus sonhos!</p>
+
+            <!-- Formulário -->
+            <form class="row justify-content-center g-2 px-3">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class="input-group gap-3">
+                        <input 
+                            type="email" 
+                            class="form-control border-0 rounded-2" 
+                            placeholder="Digite seu email"
+                            aria-label="Digite seu email">
+                        <button 
+                            class="btn btn-primary rounded-2" 
+                            type="submit">
+                            Quero Conhecer Mais!
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <p class="mt-4 mb-0">
+            📍 Destinos incríveis | 🚢 Luxo e Conforto | 🎉 Entretenimento para Todos
+            </p>
+        </div>
+
+        <div class="bg-dark w-100 py-2 mt-4">
+            <p class="text-white mb-0 p-3">© 2025 Oceanis Cruises.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
